@@ -7,6 +7,8 @@ namespace Appointment_Scheduler.RequestPayload
         public string Username { get; set; }
         [Required, EmailAddress]
         public string Email { get; set; }
+        [Required, Phone]
+        public string PhoneNumber { get; set; }
         [Required, MinLength(6, ErrorMessage = "Please enter at least 6 characters")]
         public string Password { get; set; } = string.Empty;
         [Required, Compare("Password")]

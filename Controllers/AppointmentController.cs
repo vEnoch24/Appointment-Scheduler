@@ -10,6 +10,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
+using Vonage.Request;
+using Vonage;
+using System.Reflection;
 
 namespace Appointment_Scheduler.Controllers
 {
@@ -86,9 +89,10 @@ namespace Appointment_Scheduler.Controllers
         [HttpGet("GetAllAppointments")]
         public async Task<ActionResult<IEnumerable<AppointmentDto>>> GetAllAppointments(Guid id)
         {
+            
             var result = await _appointmentRepository.GetAllAsQueryable().Where(x => x.AppointmentUserId == id).ToListAsync();
 
-            result.ForEach((appointment) =>
+            result.ForEach( (appointment) =>
             {
                 if(appointment.StartTime <= DateTime.Now && DateTime.Now < appointment.EndTime)
                 {
@@ -141,10 +145,14 @@ namespace Appointment_Scheduler.Controllers
                 " </body>" +
                 "</html>";
 
+            var message = "Hello " + user.Username + ", Your appointment "+ appointment.AppointmentTitle + " starts by "+ appointment.StartTime.ToUniversalTime();
+
             var emailDto = new EmailDto(user.Email, "Appointment Remainder", emailBody);
+            var smsRequest = new SmsMessageRequest(user.PhoneNumber.ToString(), message);
             if (remainderTime < appointment.StartTime)
             {
                 BackgroundJob.Schedule(() => _mailService.SendEmailAsync(emailDto), remainderTime);
+                BackgroundJob.Schedule(() => SendSms(smsRequest), remainderTime);
 
                 return Ok("Remainder schduled successfully");
             }
@@ -154,6 +162,27 @@ namespace Appointment_Scheduler.Controllers
             }
 
 
+        }
+
+        [HttpPost("Send-Sms")]
+        public IActionResult SendSms([FromForm] SmsMessageRequest model)
+        {
+            var credentials = Credentials.FromApiKeyAndSecret(
+                "939ddbb6",
+                "zXfP4KGzaP195jzD"
+                );
+
+            var VonageClient = new VonageClient(credentials);
+
+            var response = VonageClient.SmsClient.SendAnSms(new Vonage.Messaging.SendSmsRequest()
+            {
+                To = model.To,
+                From = "Zaptime",
+                Text = model.Message
+            });
+
+
+            return Ok("success " + response);
         }
 
     }

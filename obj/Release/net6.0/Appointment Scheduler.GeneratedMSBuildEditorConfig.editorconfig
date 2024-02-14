@@ -15,3 +15,7 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Enoch/source/repos/Appointment Scheduler/Appointment Scheduler/View/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld1xDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

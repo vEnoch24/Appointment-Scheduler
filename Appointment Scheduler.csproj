@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Appointment_Scheduler</RootNamespace>
+    <UserSecretsId>80004c8b-8c04-45be-8a5e-a9164863394f</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,6 +32,8 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.11" />
+    <PackageReference Include="Twilio" Version="6.16.1" />
+    <PackageReference Include="Vonage" Version="6.15.0" />
   </ItemGroup>
 
   <ItemGroup>

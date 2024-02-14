@@ -15,6 +15,11 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Net.Mail;
 using System.Security.Claims;
 using System.Security.Cryptography;
+using Twilio;
+using Twilio.Clients;
+using Twilio.Rest.Api.V2010.Account;
+using Twilio.Types;
+
 
 namespace Appointment_Scheduler.Controllers
 {
@@ -26,12 +31,14 @@ namespace Appointment_Scheduler.Controllers
         private readonly IGenericRepository<AppointmentUser> _userRepository;
         private readonly AppointmentDbContext _context;
         private readonly IEmailService _mailService;
-        public AuthController(IConfiguration configuration, AppointmentDbContext context, IEmailService mailService, IGenericRepository<AppointmentUser> userResopitory)
+        private readonly ITwilioRestClient _client;
+        public AuthController(IConfiguration configuration, AppointmentDbContext context, IEmailService mailService, ITwilioRestClient client, IGenericRepository<AppointmentUser> userResopitory)
         {
             _configuration = configuration;
             _userRepository = userResopitory;
             _context = context;
             _mailService = mailService;
+            _client = client;
         }
 
         [HttpPost("register")]
@@ -53,6 +60,7 @@ namespace Appointment_Scheduler.Controllers
             {
                 Email = request.Email,
                 Username = request.Username,
+                PhoneNumber = request.PhoneNumber,
                 passwordhash = passwordHash,
                 passwordSalt = passwordSalt,
                 VerificationToken = CreateRandomToken()
@@ -104,7 +112,7 @@ namespace Appointment_Scheduler.Controllers
             }
 
             //var verificationLink = $"http://127.0.0.1:5500/EmailVerification.html?token={request.token}";
-            var verificationLink = $"http://127.0.0.1:5500/login.html?token={request.token}";
+            var verificationLink = $"http://127.0.0.1:5500/login2.html?token={request.token}";
 
             //var confirmationLink = Url.Action("Verify", "Auth", new { token = request.token }, Request.Scheme);
 
@@ -115,10 +123,10 @@ namespace Appointment_Scheduler.Controllers
                 "<head>" +
                 "</head>" +
                 "<body> " +
-                " <div style=\"background-color: #f4f4f4; padding: 20px;\">"+
-                "<p style=\"font-size: 18px;\"><b>Hello, <span style=\"color: #007bff;\"> " + user.Username + "</span>!</b></p>"+
-                "<p style=\"font-size: 16px;\">Please click on the button below to complete verifying your email address and login:</p>"+
-                "<a href=\"" + verificationLink + "\" style=\"display: inline-block; background-color: #007bff; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px;\">Verify Email</a>"+
+                " <div style=\"background-color: #f4f4f4; padding: 20px;\">" +
+                "<p style=\"font-size: 18px;\"><b>Hello, <span style=\"color: #007bff;\"> " + user.Username + "</span>!</b></p>" +
+                "<p style=\"font-size: 16px;\">Please click on the button below to complete verifying your email address and login:</p>" +
+                "<a href=\"" + verificationLink + "\" style=\"display: inline-block; background-color: #007bff; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px;\">Verify Email</a>" +
                 " </body>" +
                 "</html>";
 
@@ -129,7 +137,7 @@ namespace Appointment_Scheduler.Controllers
         }
 
         [HttpGet("Verify")]
-        public async Task<IActionResult> Verify([FromQuery]EmailVerificationRequest request)
+        public async Task<IActionResult> Verify([FromQuery] EmailVerificationRequest request)
         {
             var user = await _context.Users.FirstOrDefaultAsync(u => u.VerificationToken == request.token);
             if (user == null)
@@ -160,7 +168,7 @@ namespace Appointment_Scheduler.Controllers
         }
 
         [HttpGet("GetUserByEmail")]
-        public async Task<ActionResult<AppointmentUserDto>> GetUserByEmail([EmailAddress]string email)
+        public async Task<ActionResult<AppointmentUserDto>> GetUserByEmail([EmailAddress] string email)
         {
             var user = await _context.Users.Where(e => e.Email == email).FirstOrDefaultAsync();
             if (user == null)
@@ -183,7 +191,7 @@ namespace Appointment_Scheduler.Controllers
         }
 
         [HttpPost("Forgot-Password")]
-        public async Task<IActionResult> ForgotPassword([EmailAddress]string email)
+        public async Task<IActionResult> ForgotPassword([EmailAddress] string email)
         {
             var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
             if (user == null)
@@ -233,6 +241,8 @@ namespace Appointment_Scheduler.Controllers
 
             return Ok();
         }
+
+       
 
         private string CreateRandomNumber()
         {
@@ -289,5 +299,46 @@ namespace Appointment_Scheduler.Controllers
                 return computedHash.SequenceEqual(passwordHash);
             }
         }
+
+
+
+        /*************** Twilio *************************/
+        //[HttpPost("Send-Sms")]
+        //public IActionResult SendSms([FromForm] SmsMessageRequest model)
+        //{
+        //    string accountSid = "ACd86bea79ff931a4f748e5b5518901412";
+        //    string authToken = "05dcd5d4c01d8f831b53d63d8972f91b";
+
+        //    TwilioClient.Init(accountSid, authToken);
+
+        //    string from = "+16592215187";
+
+        //    var message = MessageResource.Create(
+        //        to: new PhoneNumber(model.To),
+        //        from: new PhoneNumber(from),
+        //        body: model.Message);
+
+        //    return Ok("success" + message.Sid);
+        //}
+
+        [HttpPost("Send-WhatsappMessage")]
+        public IActionResult SendWAMessage([FromForm] SmsMessageRequest model)
+        {
+            string accountSid = "ACd86bea79ff931a4f748e5b5518901412";
+            string authToken = "05dcd5d4c01d8f831b53d63d8972f91b";
+
+            TwilioClient.Init(accountSid, authToken);
+
+            string from = "+14155238886";
+
+            var message = MessageResource.Create(
+                to: new PhoneNumber("whatsapp:" + model.To),
+                from: new PhoneNumber("whatsapp:" + from),
+                body: model.Message);
+
+            return Ok("success" + message.Sid);
+        }
+        /***************************************/
+
     }
 }

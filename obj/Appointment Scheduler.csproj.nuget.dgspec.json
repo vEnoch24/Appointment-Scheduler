@@ -116,6 +116,14 @@
             "Swashbuckle.AspNetCore.Filters": {
               "target": "Package",
               "version": "[7.0.11, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[6.16.1, )"
+            },
+            "Vonage": {
+              "target": "Package",
+              "version": "[6.15.0, )"
             }
           },
           "imports": [

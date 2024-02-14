@@ -3,6 +3,7 @@ using Appointment_Scheduler.Data;
 using Appointment_Scheduler.Model;
 using Appointment_Scheduler.Repository;
 using Appointment_Scheduler.Services.EmailService;
+using Appointment_Scheduler.Services.SmsService;
 using FirebaseAdmin;
 using Google.Apis.Auth.OAuth2;
 using Hangfire;
@@ -11,11 +12,13 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using System.Reflection;
 using System.Text;
+using Twilio.Clients;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +33,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 builder.Services.AddTransient<IEmailService, EmailService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddHttpClient<ITwilioRestClient, TwilioClient>();
 builder.Services.AddHangfire(configuration => configuration.UseSqlServerStorage(builder.Configuration.GetConnectionString("AppointmentDB")));
 builder.Services.AddHangfireServer();
 builder.Services.Configure<IdentityOptions>(opts =>
@@ -76,6 +80,12 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseDeveloperExceptionPage();
+}
+else
+{
+    //app.UseExceptionHandler("");
+    app.UseHsts();
 }
 
 app.UseHangfireDashboard();

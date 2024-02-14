@@ -70,6 +70,10 @@ namespace Appointment_Scheduler.Migrations
                     b.Property<string>("PasswordRestToken")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime?>("ResetTokenExpires")
                         .HasColumnType("datetime2");
 
