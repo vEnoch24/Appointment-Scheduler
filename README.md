@@ -1,6 +1,6 @@
 # Appointment Scheduler Api
 
-Appointment Scheduler Api is a ASP.NET Core Web API project designed to demonstrate CRUD operations, scheduled email and sms sending.
+Appointment Scheduler Api is a ASP.NET Core Web API project designed to demonstrate CRUD operations, user verification and authentication, scheduled email and sms sending.
 
 ## Installation
 
