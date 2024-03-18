@@ -59,4 +59,4 @@ Appointment Scheduler Api is a ASP.NET Core Web API project designed to demonstr
 - Hangfire
 - Mailkit
 - Vonage
-- FirebaseAdmin
+- Firebase
