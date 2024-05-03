@@ -26,7 +26,7 @@ Appointment Scheduler Api is a ASP.NET Core Web API project designed to demonstr
 
 #### User
 - `POST /api/Auth/register`: Creates a new user and sends a verification email.
-- `POST /api/Auth/login`: Authenticates and redirects user to login page.
+- `POST /api/Auth/login`: Authenticates and redirects user to main page.
 - `POST /api/Auth/SendVerificationEmail`: Sends a verification email.
 - `POST /api/Auth/SendMail`: Sends email to a provided email.
 - `POST /api/Auth/Forgot-Password`: Provides a user with a temporary forgot-password token.
