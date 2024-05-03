@@ -33,7 +33,7 @@ Appointment Scheduler Api is a ASP.NET Core Web API project designed to demonstr
 - `POST /api/Auth/Reset-Password`: Resets user password.
 - `GET /api/Auth/Verify`: Verifies user email.
 - `GET /api/Auth/GetUserById`: Retrieves details of a specific user by email.
-- `GET /api/Auth/GetUserByEmail`: Retruves detaisl of a specific user by Id.
+- `GET /api/Auth/GetUserByEmail`: Retrieves details of a specific user by Id.
 - `Delete /api/Auth/DeleteUser`: Deletes a user.
  
 ##### Sample Request (POST  /api/Appointment/CreateAppointment)
