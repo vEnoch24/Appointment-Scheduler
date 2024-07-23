@@ -60,7 +60,7 @@ namespace Appointment_Scheduler.Controllers
             {
                 Email = request.Email,
                 Username = request.Username,
-                PhoneNumber = request.PhoneNumber,
+                PhoneNumber = request   .PhoneNumber,
                 passwordhash = passwordHash,
                 passwordSalt = passwordSalt,
                 VerificationToken = CreateRandomToken()
@@ -111,8 +111,9 @@ namespace Appointment_Scheduler.Controllers
                 return BadRequest("Email is already verified");
             }
 
-            //var verificationLink = $"http://127.0.0.1:5500/EmailVerification.html?token={request.token}";
-            var verificationLink = $"http://127.0.0.1:5500/login2.html?token={request.token}";
+            //var verificationLink = $"http://127.0.0.1:5501/EmailVerification.html?token={request.token}";
+            //var verificationLink = $"http://127.0.0.1:5501/App/MainPage/index.html?token={request.token}";
+            var verificationLink = $"http://127.0.0.1:5501/App/MainPage/EmailVerification.html?token={request.token}";
 
             //var confirmationLink = Url.Action("Verify", "Auth", new { token = request.token }, Request.Scheme);
 

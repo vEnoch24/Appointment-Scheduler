@@ -131,3 +131,28 @@ C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Rele
 C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\Appointment Scheduler.pdb
 C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\Appointment Scheduler.genruntimeconfig.cache
 C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\ref\Appointment Scheduler.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Amazon.Lambda.AspNetCoreServer.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Amazon.Lambda.AspNetCoreServer.Hosting.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Amazon.Lambda.Core.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Amazon.Lambda.Logging.AspNetCore.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Amazon.Lambda.RuntimeSupport.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Enums.NET.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Epoch.net.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\ColorTranslations.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\jose-jwt.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\System.IO.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\TestableIO.System.IO.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\TestableIO.System.IO.Abstractions.Wrappers.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Twilio.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Vonage.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\Yoh.Text.Json.NamingPolicies.dll

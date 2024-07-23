@@ -1,0 +1,143 @@
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.csproj.AssemblyReference.cache
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.AssemblyInfoInputs.cache
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.AssemblyInfo.cs
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.csproj.CoreCompileInputs.cache
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.RazorAssemblyInfo.cache
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.RazorAssemblyInfo.cs
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\appointmentpushnotificat-4d4ce-firebase-adminsdk-esnil-fd20826833.json
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\appsettings.Development.json
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\appsettings.json
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Appointment Scheduler
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Appointment Scheduler.deps.json
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Appointment Scheduler.runtimeconfig.json
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Appointment Scheduler.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Appointment Scheduler.pdb
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Amazon.Lambda.AspNetCoreServer.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Amazon.Lambda.AspNetCoreServer.Hosting.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Amazon.Lambda.Core.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Amazon.Lambda.Logging.AspNetCore.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Amazon.Lambda.RuntimeSupport.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Amazon.Lambda.Serialization.SystemTextJson.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\AutoMapper.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Azure.Core.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Azure.Identity.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\BouncyCastle.Cryptography.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Enums.NET.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Epoch.net.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\FirebaseAdmin.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Google.Api.Gax.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Google.Api.Gax.Rest.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Google.Apis.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Google.Apis.Auth.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Google.Apis.Core.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\ColorTranslations.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Hangfire.AspNetCore.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Hangfire.Core.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Hangfire.NetCore.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Hangfire.SqlServer.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Humanizer.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\jose-jwt.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\MailKit.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Data.SqlClient.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.EntityFrameworkCore.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.Configuration.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.Logging.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.Options.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Extensions.Primitives.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Identity.Client.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.IdentityModel.Logging.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.OpenApi.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.SqlServer.Server.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Microsoft.Win32.SystemEvents.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\MimeKit.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Mono.TextTemplating.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Newtonsoft.Json.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Npgsql.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Scrutor.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.CodeDom.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Configuration.ConfigurationManager.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Drawing.Common.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Formats.Asn1.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.IO.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Memory.Data.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Runtime.Caching.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Security.Cryptography.Pkcs.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Security.Permissions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Text.Encoding.CodePages.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Text.Encodings.Web.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Text.Json.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\System.Windows.Extensions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\TestableIO.System.IO.Abstractions.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\TestableIO.System.IO.Abstractions.Wrappers.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Twilio.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Vonage.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\Yoh.Text.Json.NamingPolicies.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\ca\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\de\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\es\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\fa\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\fr\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\nb\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\nl\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\pt-BR\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\pt-PT\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\pt\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\sv\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\tr-TR\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\zh-TW\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Release\net6.0\linux-x64\zh\Hangfire.Core.resources.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\staticwebassets\msbuild.Appointment Scheduler.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\staticwebassets\msbuild.build.Appointment Scheduler.props
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\staticwebassets\msbuild.buildMultiTargeting.Appointment Scheduler.props
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\staticwebassets\msbuild.buildTransitive.Appointment Scheduler.props
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\staticwebassets.pack.json
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\staticwebassets.build.json
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\staticwebassets.development.json
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\scopedcss\bundle\Appointment Scheduler.styles.css
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.csproj.CopyComplete
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\refint\Appointment Scheduler.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.pdb
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\Appointment Scheduler.genruntimeconfig.cache
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\obj\Release\net6.0\linux-x64\ref\Appointment Scheduler.dll

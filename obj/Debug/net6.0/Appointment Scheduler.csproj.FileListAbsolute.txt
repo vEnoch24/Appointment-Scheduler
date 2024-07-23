@@ -148,3 +148,11 @@ C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debu
 C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debug\net6.0\TestableIO.System.IO.Abstractions.Wrappers.dll
 C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debug\net6.0\Vonage.dll
 C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debug\net6.0\Yoh.Text.Json.NamingPolicies.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debug\net6.0\Amazon.Lambda.APIGatewayEvents.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debug\net6.0\Amazon.Lambda.ApplicationLoadBalancerEvents.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debug\net6.0\Amazon.Lambda.AspNetCoreServer.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debug\net6.0\Amazon.Lambda.AspNetCoreServer.Hosting.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debug\net6.0\Amazon.Lambda.Core.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debug\net6.0\Amazon.Lambda.Logging.AspNetCore.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debug\net6.0\Amazon.Lambda.RuntimeSupport.dll
+C:\Users\Enoch\source\repos\Appointment Scheduler\Appointment Scheduler\bin\Debug\net6.0\Amazon.Lambda.Serialization.SystemTextJson.dll
