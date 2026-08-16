@@ -19,9 +19,6 @@ Tech stack
   - AutoMapper (profiles directory exists)
   - Swagger / Swashbuckle for API exploration
 
-IMPORTANT security note
-This repository currently contains a Firebase admin JSON key file (appointmentpushnotificat-*.json). That is a secret and must be removed from the repository (git rm --cached ...) and rotated immediately. Move such keys to secure storage (Azure Key Vault, environment variables, or a secrets manager). Add sensitive filenames to .gitignore.
-
 Contents / project layout
 ```
 Appointment Scheduler.csproj           # project file
@@ -215,16 +212,7 @@ Testing
 - Use tools like Postman or curl to exercise endpoints.
 - Add unit and integration tests (none found at top-level; consider adding a tests/ project).
 
-Developer notes & recommendations
-- Secrets management: remove credential files and use environment variables or a secrets manager. Rotate exposed keys immediately.
-- Add a LICENSE (if this is not intended to be private) and CONTRIBUTING.md to help other contributors.
-- Add a .dockerignore and Dockerfile if you want to publish a container image.
-- Consider centralizing configuration keys & using strongly typed options (IOptions<T>) for JwtSettings, Mail, Twilio, Firebase, etc.
-- Add integration tests for the notification pipeline (mock external providers).
-- Consider rate-limiting on public endpoints and validation for user inputs.
-
 Known TODOs / improvements (suggested)
-- Replace any hard-coded secrets with configuration references.
 - Add logging and structured correlation IDs for requests.
 - Implement refresh token flow for authentication (if long-lived sessions needed).
 - Add healthchecks and readiness/liveness endpoints for production orchestration.
