@@ -1,0 +1,11 @@
+# Ignore specific sensitive files
+.env
+config.json
+secrets.txt
+appointmentpushnotificat-4d4ce-firebase-adminsdk-esnil-fd20826833.json
+
+# Ignore an entire folder containing sensitive data
+sensitive-data/
+
+# Ignore all files with a specific extension (e.g., log files)
+*.log
