@@ -235,14 +235,5 @@ Contributing
 - Ensure no secrets are committed. Add tests for new behaviors.
 
 License
-- No license file found in the repository (add LICENSE to clarify terms).
+- No license needed for this repo
 
-Questions you might want to ask next
-- Which environment variables or configuration keys are required exactly by Program.cs and the services (I can list exact keys if you want)?
-- Do you want me to remove the committed Firebase JSON, add it to .gitignore, and produce a small script/guide to rotate those keys?
-- Should I add a Dockerfile + docker-compose that runs the API, a SQL Server container, and a Hangfire dashboard for local development?
-
----
-If you’d like, I can:
-- Produce a ready-to-paste, fully-expanded README.md using this content (with a short "Quickstart" section tailored to your project configuration).
-- Create a .gitignore entry and a short note and commit (or show the exact git commands) that removes the Firebase JSON from the repo and adds instructions to rotate the credential.
